@@ -4,49 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Juan Pablo Leon Maya</title>
+    <title>Portfolio Juan Pablo Leon Maya</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap');
     </style>
-    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/slyle.mobile.css">
+    <script src="https://kit.fontawesome.com/e9a3b75ed6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slyle.mobile.css">
 </head>
 <body>
     <header>
         <div class="container">
             <nav class="menu">
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Contacto</a>
+                <a href="#about">About me</a>
+                <a href="#works">Projects</a>
+                <a href="#contact">Contact</a>
             </nav>
 
             <div class="text-container">
                 <div class="text">
-                    <h1 class="name">Juan P. Leon</h1>
-                    <h2 class="profession">Desarrollador Web</h2>
+                    <h1 class="name">Hi, i'm Juan P.</h1>
+                    <h2 class="profession">Nice to meet you.</h2>
                 </div>
             </div>
         </div>
     </header>
     
     <section class="main">
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="picture">
-                    <img src="/img/i.png" width="115" height="115" alt="Juan Pablo Leon Maya">
+                    <img src="./img/i.png" width="115" height="115" alt="Juan Pablo Leon Maya">
                 </div>
     
                 <div class="text">
-                    <h3 class="title">Acerca de</h3>
-                    <p>Lorem ipsum dolor sit <span class="bold">amet consectetur adipisicing elit.</span> Alias saepe perferendis eligendi labore sint cumque eveniet ipsum aliquam, quasi, enim, ut libero! Maiores minus voluptas non <span class="bold">consectetur voluptatibus rem iusto!</span></p>
+                    <h3 class="title">About me</h3>
+                    <p>
+                        I am a Colombian
+                        <span class="bold"> Front-End Web Developer</span>,
+                        I specialize in front-end and I have more than 3 years of experience developing 
+                        <span class="bold">hybrid mobile applications with apache cordova</span>. 
+                        languages I speak are 
+                        <span class="bold">HTML, JS, JQuery, JQuery Mobile, CSS.</span> I love my work and I want to share a little bit of it with you.
+                    </p>
                 </div>
             </div>
         </section>
-        <section class="works">
+        <section class="works" id="works">
             <div class="container">
-                <h3 class="title">Trabajos</h3>
+                <h3 class="title">Projects</h3>
                 <div class="works-container">
                     <div class="work">
                         <div class="thumb">
@@ -126,25 +133,23 @@
     </section>
 
     <footer>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
-                <h3 class="title">Contacto</h3>
+                <h3 class="title">Contact</h3>
                 <form action="" class="contact-form">
-                    <input type="text" placeholder="Nombre" name="name" required>
-                    <input type="email" placeholder="Correo" name="email" required>
-                    <textarea name="message" id="message" placeholder="Mensaje"></textarea>
-                    <input type="submit" value="Enviar" class="button">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="email" placeholder="E-Mail" name="email" required>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <input type="submit" value="Send" class="button">
                 </form>
             </div>
         </section>
 
         <section class="social-networks">
             <div class="container">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="github"><i class="fa fa-github"></i></a>
-                <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
-                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/juanleon8581?tab=repositories" class="github"><i class="fab fa-github"></i></a>
+                <a href="https://discord.gg/zw628F5g28" class="discord"><i class="fab fa-discord"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
             </div>
         </section>
 
