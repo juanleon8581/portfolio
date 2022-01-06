@@ -154,6 +154,10 @@ header .text-container .text .profession {
     margin-bottom: 40px;
 }
 
+.main .works .works-container .work:hover {
+    cursor: pointer;
+}
+
 .main .works .works-container .work .thumb {
     width: 100%;
     margin-bottom: 10px;
